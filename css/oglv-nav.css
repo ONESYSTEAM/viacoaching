@@ -1,24 +1,26 @@
 .post-template-default,
-#page-container{
+#page-container {
   padding-top: 100px;
 }
-.post-template-default .single-post{
+
+.post-template-default .single-post {
   min-height: auto !important;
 }
-.post-template-default #page-container{
+
+.post-template-default #page-container {
   padding-bottom: 80px;
 }
 
 #oglv-header,
 #oglv-nav,
-#oglv-footer{
+#oglv-footer {
   line-height: normal;
   font-family: 'OgilvySans', Arial, Helvetica, sans-serif;
 }
 
-#oglv-header > div,
-#oglv-footer > div,
-#header > div{
+#oglv-header>div,
+#oglv-footer>div,
+#header>div {
   display: block;
   position: relative;
   float: none;
@@ -30,20 +32,21 @@
   clear: both;
 }
 
-@media (max-width: 768px){
-  #oglv-header > div,
-  #oglv-footer > div{
+@media (max-width: 768px) {
+
+  #oglv-header>div,
+  #oglv-footer>div {
     padding: 90px 34px 70px;
   }
 }
 
 #oglv-header,
-#oglv-nav{
+#oglv-nav {
   background: url('.././img/logo-dark.png') 50px 40px/200px 80px no-repeat;
-  
+
 }
 
-#oglv-header{
+#oglv-header {
   background-color: #ffffff;
   display: block;
   position: fixed;
@@ -55,7 +58,8 @@
   transition: all 300ms cubic-bezier(0.645, 0.045, 0.355, 1);
   padding-bottom: 10px;
 }
-.oglv-header-top{
+
+.oglv-header-top {
   display: block;
   position: absolute;
   float: none;
@@ -65,23 +69,28 @@
   height: 100px;
   text-indent: -500px;
 }
-#oglv-header > div{
+
+#oglv-header>div {
   height: 100%;
 }
-.header-above #home{
+
+.header-above #home {
   z-index: 100;
 }
-.header-hide #oglv-header{
+
+.header-hide #oglv-header {
   opacity: 0;
 }
 
-@media (max-width: 1440px){
+@media (max-width: 1440px) {
+
   #oglv-header,
-  #oglv-nav{
+  #oglv-nav {
     background-position: 24px 24px;
   }
+
   #oglv-header,
-  .oglv-header-top{
+  .oglv-header-top {
     height: 130px;
   }
 }
@@ -90,109 +99,129 @@
 #oglv-menu div,
 #oglv-menu div:after,
 #oglv-menubtn,
-#oglv-menubtn:after{
+#oglv-menubtn:after {
   display: block;
   position: absolute;
   float: none;
 }
 
 #oglv-menu,
-#oglv-menubtn{
+#oglv-menubtn {
   position: fixed;
   width: 30px;
   height: 30px;
   top: 70px;
-  right: 28px;
+  right: 100px;
   margin: -15px 0px 0px;
-
   box-sizing: border-box;
   cursor: pointer;
 }
-#oglv-menu{
+
+#oglv-menu {
   overflow: hidden;
 }
 
 #oglv-menu div,
-#oglv-menu div:after{
+#oglv-menu div:after {
   background: black;
 }
 
-@media (min-width: 769px){
-  .menu-dark #oglv-header{
+@media (min-width: 769px) {
+  .menu-dark #oglv-header {
     background-color: transparent;
     background-image: url('.././img/logo-dark.png')
   }
+
   .show-menu.menu-dark #oglv-menu div,
-  .show-menu.menu-dark #oglv-menu div:after{
+  .show-menu.menu-dark #oglv-menu div:after {
     background: black;
   }
+
   .menu-dark #oglv-menu div,
-  .menu-dark #oglv-menu div::after{
+  .menu-dark #oglv-menu div::after {
     background: #fff;
   }
 }
-body:not(.menu-flush){
+
+body:not(.menu-flush) {
   padding-top: 100px;
 }
-@media (max-width: 1440px){
-  body:not(.menu-flush){
+
+@media (max-width: 1440px) {
+  body:not(.menu-flush) {
     padding-top: 80px;
   }
 }
-@media (max-width: 768px){
-  body{
+
+@media (max-width: 768px) {
+  body {
     padding-top: 80px;
   }
+
+  #oglv-menu,
+  #oglv-menubtn {
+    right: 28px;
+  }
 }
-#oglv-menu div{
+
+#oglv-menu div {
   width: 130%;
   height: 2px;
   left: 0px;
   transition: all 300ms cubic-bezier(0.645, 0.045, 0.355, 1);
 }
-#oglv-menu div:first-child{
+
+#oglv-menu div:first-child {
   top: 0px;
   transform: translate(0px, 9px);
 }
-#oglv-menu div:last-child{
+
+#oglv-menu div:last-child {
   bottom: 0px;
   transform: translate(0px, -9px);
 }
-#oglv-menu div:after{
+
+#oglv-menu div:after {
   content: '';
   width: 150%;
   height: 110%;
   left: 100%;
 }
-#oglv-menu div:first-child:after{
+
+#oglv-menu div:first-child:after {
   transform: rotate(45deg);
   transform-origin: top left;
 }
-#oglv-menu div:last-child:after{
+
+#oglv-menu div:last-child:after {
   transform: rotate(-45deg);
   transform-origin: bottom left;
 }
-.show-menu #oglv-menu div:first-child{
+
+.show-menu #oglv-menu div:first-child {
   transform: translate(-100%, -100%);
 }
-.show-menu #oglv-menu div:last-child{
+
+.show-menu #oglv-menu div:last-child {
   transform: translate(-100%, 100%);
 }
-#oglv-menubtn:after{
+
+#oglv-menubtn:after {
   content: '';
   top: -15px;
   right: -15px;
   bottom: -15px;
   left: -15px;
 }
+
 #oglv-menu,
 #oglv-menubtn,
 #oglv-shield,
-#oglv-nav{
+#oglv-nav {
   z-index: 99999;
 }
 
-#oglv-nav{
+#oglv-nav {
   background-color: #fff;
   display: block;
   position: fixed;
@@ -204,13 +233,14 @@ body:not(.menu-flush){
 
   box-sizing: border-box;
   padding: 150px 40px 0px 46px;
-  
+
   transition: clip-path 800ms cubic-bezier(0.645, 0.045, 0.355, 1);
   pointer-events: none;
   clip-path: circle(0px at 1373px 55px);
 }
-#oglv-shield{
-  background: rgba(0,0,0,.3);
+
+#oglv-shield {
+  background: rgba(0, 0, 0, .3);
   display: block;
   position: fixed;
   float: none;
@@ -222,14 +252,15 @@ body:not(.menu-flush){
   transition: all 800ms cubic-bezier(0.645, 0.045, 0.355, 1);
   opacity: 0;
 }
+
 .show-menu #oglv,
-.show-menu #oglv-shield{
+.show-menu #oglv-shield {
   opacity: 1;
 }
 
 #oglv-nav ul,
 #oglv-nav ul li,
-#oglv-nav ul li a{
+#oglv-nav ul li a {
   display: block;
   position: relative;
   float: left;
@@ -238,7 +269,8 @@ body:not(.menu-flush){
   padding: 0px;
   box-sizing: border-box;
 }
-#oglv-nav ul{
+
+#oglv-nav ul {
   /*background: rgba(255, 255, 255, 0);*/
   list-style: none;
   transition: all 1000ms cubic-bezier(0.645, 0.045, 0.355, 1);
@@ -250,54 +282,63 @@ body:not(.menu-flush){
   overflow: hidden;
   overflow-y: auto;
 }
-.show-menu #oglv-nav{
+
+.show-menu #oglv-nav {
   pointer-events: auto;
 }
-#oglv-nav ul li{
+
+#oglv-nav ul li {
   margin: 0px 0px 30px;
 }
-#oglv-nav ul a{
+
+#oglv-nav ul a {
   text-decoration: none;
   color: inherit;
   transition: color 150ms cubic-bezier(0.645, 0.045, 0.355, 1);
 }
-#oglv-nav ul a:hover{
+
+#oglv-nav ul a:hover {
   color: #ee304e;
 }
-#oglv-nav ul .oglv-nav-sub{
+
+#oglv-nav ul .oglv-nav-sub {
   padding: 0px 0px 0px 40px;
   font-size: 50px;
   margin-top: -20px;
 }
 
-@media (max-width: 1440px){
-  #oglv-nav ul{
+@media (max-width: 1440px) {
+  #oglv-nav ul {
     font-size: 50px;
   }
-  #oglv-nav ul .oglv-nav-sub{
+
+  #oglv-nav ul .oglv-nav-sub {
     font-size: 40px;
   }
 }
 
 
-@media (max-width: 700px){
-  #oglv-nav{
+@media (max-width: 700px) {
+  #oglv-nav {
     padding: 104px 34px 0px 34px;
   }
-  #oglv-nav ul li{
+
+  #oglv-nav ul li {
     margin: 0px 0px 14px;
   }
-  #oglv-nav ul{
+
+  #oglv-nav ul {
     font-size: 25px;
   }
-  #oglv-nav ul .oglv-nav-sub{
+
+  #oglv-nav ul .oglv-nav-sub {
     font-size: 20px;
     margin-top: -10px;
   }
 }
 
 
-#oglv-footer{
+#oglv-footer {
   background: #F58E8F;
   display: block;
   position: relative;
@@ -309,70 +350,87 @@ body:not(.menu-flush){
   font-size: 16px;
   padding: 0px;
 }
-#oglv-footer br{
+
+#oglv-footer br {
   clear: both;
 }
-#oglv-footer a{
+
+#oglv-footer a {
   color: inherit;
   text-decoration: underline;
 }
-#oglv-footer > div{
+
+#oglv-footer>div {
   padding-top: 44px;
   padding-bottom: 44px;
 }
+
 #oglv-footer-copy,
-#oglv-footer-copy a{
+#oglv-footer-copy a {
   display: block;
   position: relative;
   float: left;
 }
-#oglv-footer-copy{
+
+#oglv-footer-copy {
   width: 100%;
   font-size: 14px;
   clear: both;
 }
-#oglv-footer-copy a{
+
+#oglv-footer-copy a {
   float: right;
 }
-#oglv-footer p{
+
+#oglv-footer p {
   margin: 0px;
   padding: 0px;
 }
-#oglv-footer .oglv-footer-pocket p{
+
+#oglv-footer .oglv-footer-pocket p {
   padding: 0px 0px 60px;
   font-size: 20px;
 }
-#oglv-footer .oglv-footer-pocket strong{
+
+#oglv-footer .oglv-footer-pocket strong {
   font-size: 22px;
 }
-@media (max-width: 768px){
-  #oglv-footer .oglv-footer-pocket p{
+
+@media (max-width: 768px) {
+  #oglv-footer .oglv-footer-pocket p {
     font-size: 16px;
     padding: 0px 0px 38px;
   }
-  #oglv-footer .oglv-footer-pocket strong{
+
+  #oglv-footer .oglv-footer-pocket strong {
     font-size: 18px;
   }
 }
-@media (min-width: 800px){
+
+@media (min-width: 800px) {
+
   #oglv-footer .oglv-footer-pocket,
-  #oglv-footer .oglv-footer-pocket p{
+  #oglv-footer .oglv-footer-pocket p {
     display: block;
     position: relative;
     float: right;
   }
-  #oglv-footer .oglv-footer-pocket{
+
+  #oglv-footer .oglv-footer-pocket {
     width: 33.3%;
     max-width: 260px;
   }
+
   #oglv-footer .oglv-footer-pocket.oglv-footer-pocket-left,
-  #oglv-footer .oglv-footer-pocket.oglv-footer-pocket-left p{
+  #oglv-footer .oglv-footer-pocket.oglv-footer-pocket-left p {
     float: left;
   }
-  #oglv-footer .oglv-footer-pocket.oglv-footer-pocket-left p{
+
+  #oglv-footer .oglv-footer-pocket.oglv-footer-pocket-left p {
     width: 100%;
   }
-  #oglv-footer-copy{
+
+  #oglv-footer-copy {
     width: 100%;
     max-width: 400px;
   }
