@@ -114,27 +114,21 @@ body {
 
 @media (max-width: 576px) {
   .hero-section {
-    background-image: url('../images/hero-bg-with-woman.png');
+    background-image: url('../images/hero-bg-mobile.png');
     background-position: center;
     background-size: cover;
-    height: 200px;
+    display: block;
   }
 
   .hero-section .hero-description {
-    padding-top: 90px;
+    padding-top: 150px;
   }
 
   .hero-section .hero-description h2 {
-    font-size: 10px;
+    font-size: 30px;
   }
 
   .hero-section .logo {
-    width: 70px;
     padding-top: 30px !important;
-  }
-
-  .hero-section .btn {
-    font-size: 10px;
-    margin-bottom: 30px;
   }
 }
