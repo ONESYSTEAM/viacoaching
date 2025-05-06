@@ -126,7 +126,7 @@ body {
   /* Highlight Section Start */
   .highlight-section {height: auto; padding: 20px 0;}
   .highlight-section h2 {font-size: 15px;}
-  .highlight-section .btn {font-size: 10px; width: 100%; margin-bottom: 20px; padding: 5px 10px 5px 10px;}
+  .highlight-section .btn {font-size: 10px; margin-bottom: 20px; padding: 5px 10px 5px 10px;}
   .highlight-section img {width: 100%;}
   /* Highlight Section End */
 
@@ -140,15 +140,15 @@ body {
   /* Services Section End */
 
   /* Safe Space Start */
-  .safe-space {height: 40vh; padding: 20px 0;}
-  .safe-space h2 {font-size: 20px;}
+  .safe-space {height: 45vh; padding: 20px 0;}
+  .safe-space h2 {font-size: 20px; padding: 0 50px;}
   /* Safe Space End */
 
   /* Trusted Section Start */
   .trusted-section {height: auto; padding: 20px 0;}
   .trusted-section h2{font-size: 20px;}
   .trusted-section p {font-size: 12px;}
-  .trusted-section .btn {font-size: 10px; width: 100%; margin-bottom: 20px; padding: 5px 10px 5px 10px;}
+  .trusted-section .btn {font-size: 10px; margin-bottom: 20px; padding: 5px 10px 5px 10px;}
   /* Trusted Section End */
 
   /* Client Section Start */
