@@ -24,6 +24,11 @@ body {
   padding-top: 50px;
   top: 0;
 }
+
+.hero-section .btn {
+  padding: 10px 30px 10px 30px;
+}
+
 .hero-section .hero-description img.hero-woman {
   position: absolute;
   top: 0;
@@ -37,10 +42,7 @@ body {
 }
 /* Hero Section End */
 
-
-
-
-
+/* Highlight Start */
 .highlight-section {
   background-color: #000;
   color: #fff;
@@ -48,31 +50,27 @@ body {
   display: flex;
   align-items: center;
 }
-
 .highlight-section img {
   width: 70%;
 }
-
-
-
-
 .highlight-section .col-md-6:first-child {
   padding: 0 20px 0 20px;
 }
-
-.highlight-section p {
+.highlight-section h2 {
   font-size: 23px;
 }
+/* Highlight End */
 
-
-
+/* Services Start */
 .services-section {
   padding: 4rem 2rem;
 }
-
-.services-section .h4{
+.services-section .h4 {
   color: #f652b9;
 }
+
+
+
 .safe-space {
   background-image: url('../images/safe-space-men.png');
   background-size: cover;
@@ -83,7 +81,7 @@ body {
   height: 100vh;
 }
 
-.safe-space p {
+.safe-space h2 {
   font-size: 28px;
 }
 
@@ -93,12 +91,16 @@ body {
   padding: 4rem 2rem;
 }
 
-.trusted-section h3 {
+.trusted-section h2{
   font-size: 36px;
 }
 
 .clients-section {
   padding: 4rem 2rem;
+}
+
+.clients-section ul {
+  padding: 20px 30px;
 }
 .about-section {
   padding: 4rem 2rem;
@@ -113,28 +115,60 @@ body {
 }
 
 @media (max-width: 576px) {
-  .hero-section {
-    background-image: url('../images/hero-bg-with-woman.png');
-    background-position: center;
-    background-size: cover;
-    height: 200px;
-  }
+  /* Hero Section Start */
+  .hero-section {height: 200px;}
+  .hero-section .logo {width: 60px; padding-top: 10px;}
+  .hero-section .hero-description {padding-top: 100px;}
+  .hero-section .hero-description h2 {margin-top: 20px; font-size: 12px;}
+  .hero-section .hero-description .btn {font-size: 10px; margin-bottom: 80px; padding: 5px 10px 5px 10px;}
+  /* Hero Section End */
 
-  .hero-section .hero-description {
-    padding-top: 90px;
-  }
+  /* Highlight Section Start */
+  .highlight-section {height: auto; padding: 20px 0;}
+  .highlight-section h2 {font-size: 15px;}
+  .highlight-section .btn {font-size: 10px; width: 100%; margin-bottom: 20px; padding: 5px 10px 5px 10px;}
+  .highlight-section img {width: 100%;}
+  /* Highlight Section End */
 
-  .hero-section .hero-description h2 {
-    font-size: 10px;
-  }
+  /* Services Section Start */
+  .services-section {height: auto; padding: 20px 0;}
+  .services-section img {width: 100%; margin-bottom: 20px;}
+  .services-section h2 {font-size: 20px;}
+  .services-section p {font-size: 12px;}
+  .services-section h4 {font-size: 20px;}
+  .services-section ul li {font-size: 12px;}
+  /* Services Section End */
 
-  .hero-section .logo {
-    width: 70px;
-    padding-top: 30px !important;
-  }
+  /* Safe Space Start */
+  .safe-space {height: 40vh; padding: 20px 0;}
+  .safe-space h2 {font-size: 20px;}
+  /* Safe Space End */
 
-  .hero-section .btn {
-    font-size: 10px;
-    margin-bottom: 30px;
+  /* Trusted Section Start */
+  .trusted-section {height: auto; padding: 20px 0;}
+  .trusted-section h2{font-size: 20px;}
+  .trusted-section p {font-size: 12px;}
+  .trusted-section .btn {font-size: 10px; width: 100%; margin-bottom: 20px; padding: 5px 10px 5px 10px;}
+  /* Trusted Section End */
+
+  /* Client Section Start */
+  .clients-section {height: auto; padding: 20px 0;}
+  .clients-section h2 {font-size: 20px; text-align: center;}
+  .clients-section ul {
+    padding: 10px 30px;
   }
+  .clients-section ul li {font-size: 12px;}
+  .clients-section p {font-size: 12px;}
+  /* Client Section End */
+
+  /* About Section Start */
+  .about-section {height: auto; padding: 20px 0;}
+  .about-section h3 {font-size: 20px;}
+  .about-section p {font-size: 12px;}
+  /* About Section End */
+
+  /* Footer Start */
+  .footer {height: auto; padding: 20px 0;}
+  .footer h2 {font-size: 20px;}
+  /* Footer End */
 }
