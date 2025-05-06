@@ -140,8 +140,8 @@ body {
   /* Services Section End */
 
   /* Safe Space Start */
-  .safe-space {height: 45vh; padding: 20px 0;}
-  .safe-space h2 {font-size: 20px; padding: 0 50px;}
+  .safe-space {height: 35vh; padding: 20px 0; background-position: left;}
+  .safe-space h2 {font-size: 20px; padding: 0 80px;}
   /* Safe Space End */
 
   /* Trusted Section Start */
