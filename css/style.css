@@ -124,9 +124,9 @@ body {
   /* Hero Section End */
 
   /* Highlight Section Start */
-  .highlight-section {height: auto; padding: 20px 0;}
+  .highlight-section {height: auto; padding-top: 50px; padding-bottom: 20px;}
   .highlight-section h2 {font-size: 15px;}
-  .highlight-section .btn {font-size: 10px; margin-bottom: 20px; padding: 5px 10px 5px 10px;}
+  .highlight-section .btn {font-size: 10px; margin: 20px 0; padding: 5px 10px 5px 10px;}
   .highlight-section img {width: 100%;}
   /* Highlight Section End */
 
@@ -146,6 +146,7 @@ body {
 
   /* Trusted Section Start */
   .trusted-section {height: auto; padding: 20px 0;}
+  .trusted-section .col-md-6:last-child {padding: 0 70px;}
   .trusted-section h2{font-size: 20px;}
   .trusted-section p {font-size: 12px;}
   .trusted-section .btn {font-size: 10px; margin-bottom: 20px; padding: 5px 10px 5px 10px;}
