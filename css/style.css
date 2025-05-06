@@ -12,11 +12,29 @@ body {
   background-image: url('../images/hero-bg-with-woman.png');
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center bottom;
+  background-position: left bottom;
   display: flex;
   align-items: center;
   height: 100vh;
 }
+
+@media (max-width: 576px) {
+  .hero-section {
+    background-image: url('../images/hero-bg-mobile.png');
+    background-position: center;
+    background-size: cover;
+    display: block;
+  }
+
+  .hero-section .hero-description {
+    padding-top: 150px;
+  }
+
+  .hero-section .logo {
+    padding-top: 30px !important;
+  }
+}
+
 .hero-section .logo {
   width: 150px;
   position: absolute;
