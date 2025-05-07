@@ -114,7 +114,8 @@ body {
   padding: 3rem 2rem;
 }
 
-@media (max-width: 576px) {
+/* Mobile */
+@media (max-width: 768px) {
   /* Hero Section Start */
   .hero-section {height: 200px;}
   .hero-section .logo {width: 60px; padding-top: 10px;}
@@ -141,7 +142,7 @@ body {
 
   /* Safe Space Start */
   .safe-space {height: 55vh; padding: 20px 0;}
-  .safe-space h2 {font-size: 20px; padding: 0 80px;}
+  .safe-space h2 {font-size: 30px; padding: 0 80px;}
   /* Safe Space End */
 
   /* Trusted Section Start */
@@ -172,4 +173,10 @@ body {
   .footer {height: auto; padding: 20px 0;}
   .footer h2 {font-size: 20px;}
   /* Footer End */
+}
+
+/* Tablet */
+@media (min-width: 577px) and (max-width: 992px)  {
+  .hero-section .logo {width: 100px; padding-top: 50px;}
+  .hero-section .hero-description h2 {margin-top: 60px; font-size: 25px;}
 }
