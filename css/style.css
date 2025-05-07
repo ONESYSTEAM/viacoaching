@@ -15,7 +15,7 @@ body {
   background-position: left bottom;
   display: flex;
   align-items: center;
-  height: 100vh;
+  height: 600px;
 }
 
 .hero-section .logo {
@@ -46,7 +46,7 @@ body {
 .highlight-section {
   background-color: #000;
   color: #fff;
-  height: 100vh;
+  height: 600px;
   display: flex;
   align-items: center;
 }
@@ -76,7 +76,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center bottom;
-  height: 100vh;
+  height: 600px;
 }
 
 .safe-space h2 {
