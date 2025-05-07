@@ -141,13 +141,13 @@ body {
   /* Services Section End */
 
   /* Safe Space Start */
-  .safe-space {height: 55vh; padding: 20px 0;}
-  .safe-space h2 {font-size: 30px; padding: 0 80px;}
+  .safe-space {height: 30vh; padding: 20px 0;}
+  .safe-space h2 {font-size: 20px; padding: 0 80px;}
   /* Safe Space End */
 
   /* Trusted Section Start */
   .trusted-section {height: auto; padding: 20px 0;}
-  .trusted-section .col-md-6:last-child {padding: 0 90px;}
+  .trusted-section .col-md-6:last-child {padding: 0 80px;}
   .trusted-section h2{font-size: 20px;}
   .trusted-section p {font-size: 12px;}
   .trusted-section .btn {font-size: 10px; margin-bottom: 20px; padding: 5px 10px 5px 10px;}
