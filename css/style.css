@@ -118,7 +118,7 @@ body {
   /* Hero Section Start */
   .hero-section {height: 200px;}
   .hero-section .logo {width: 60px; padding-top: 10px;}
-  .hero-section .hero-description {padding-top: 100px;}
+  .hero-section .hero-description {padding-top: 100px; margin-left: 40px;}
   .hero-section .hero-description h2 {margin-top: 20px; font-size: 12px;}
   .hero-section .hero-description .btn {font-size: 10px; margin-bottom: 80px; padding: 5px 10px 5px 10px;}
   /* Hero Section End */
@@ -140,7 +140,7 @@ body {
   /* Services Section End */
 
   /* Safe Space Start */
-  .safe-space {height: 35vh; padding: 20px 0; background-position: left;}
+  .safe-space {height: 55vh; padding: 20px 0;}
   .safe-space h2 {font-size: 20px; padding: 0 80px;}
   /* Safe Space End */
 
