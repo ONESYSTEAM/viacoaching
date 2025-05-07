@@ -112,6 +112,9 @@ body {
   padding: 3rem 2rem;
 }
 
+@media (max-width: 576px) {
+  .safe-space {background-image: url('../images/safe-space-bg.png');}
+}
 /* Mobile */
 @media (max-width: 768px) {
   /* Hero Section Start */
@@ -139,7 +142,7 @@ body {
   /* Services Section End */
 
   /* Safe Space Start */
-  .safe-space {height: 20vh; padding: 20px 0;   background-image: url('../images/safe-space-bg.png');}
+  .safe-space {height: 20vh; padding: 20px 0; background-image: url('../images/safe-space-bg.png');}
   .safe-space h2 {font-size: 15px; padding: 0 80px; margin-left: 50px;}
   /* Safe Space End */
 
