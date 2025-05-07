@@ -146,7 +146,7 @@ body {
 
   /* Trusted Section Start */
   .trusted-section {height: auto; padding: 20px 0;}
-  .trusted-section .col-md-6:last-child {padding: 0 70px;}
+  .trusted-section .col-md-6:last-child {padding: 0 90px;}
   .trusted-section h2{font-size: 20px;}
   .trusted-section p {font-size: 12px;}
   .trusted-section .btn {font-size: 10px; margin-bottom: 20px; padding: 5px 10px 5px 10px;}
